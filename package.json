@@ -1,0 +1,44 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "TODOAPP",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "mocha --require babel-polyfill --compilers js:babel-register"
+  },
+  "author": "michal kapuscinski",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-polyfill": "^6.16.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.1.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "peerDependencies": {
+    "chai": "3.x",
+    "cheerio": "0.19.x || 0.20.x || 0.22.x",
+    "enzyme": "1.x || 2.x"
+  },
+  "devDependencies": {
+    "6to5-jest": "^3.0.0",
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.6.1",
+    "enzyme": "^2.6.0",
+    "expect": "^1.20.2",
+    "expect-jsx": "^2.6.0",
+    "jsdom": "^9.8.3",
+    "moch": "0.0.1",
+    "react-test-renderer": "^15.3.2",
+    "react-tools": "^0.13.3"
+  }
+}

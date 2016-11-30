@@ -1,0 +1,28 @@
+#app{
+  position: relative;
+  margin: auto;
+  width: 500px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+#noteInput{
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.note{
+  height: 21px;
+  width: 480px;
+  padding: 3px;
+  margin: 5px;
+  border: 2px solid orange;
+  border-radius: 2px;
+}
+
+.noteXButt{
+  float: right;
+}
